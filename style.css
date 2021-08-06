@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-image: url('img/Untitled\ design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55rem;
+}
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 2rem;
+}
+.logo {
+    width: 10rem;
+    height: 8rem;
+}
+.order-list ul  {
+    display: flex;
+    justify-content: center;
+}
+.order-list ul li {
+    padding: 0rem 2rem;
+    list-style: none;
+}
+.order-list ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    text-transform: uppercase;
+}
+.btn-hd {
+    padding: 1rem 4rem;
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    text-transform: uppercase;
+}
+.btn-hd:hover {
+    background-color: #6DB43F;
+    font-weight: bolder;
+    color: #f00;
+}
+.down-side {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7rem;
+}
+.lt-ph {
+    font-size: 2rem;
+    font-weight: bold;
+}
+h1 {
+    font-size: 5rem;
+    padding: 1rem 0rem;
+    font-weight: bolder;
+}
+.rt-ph {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+.dtr-btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #CCF5F7;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.banner {
+    height: 25rem;
+ }
+ .dtr-btn:hover {
+    background-color: #6DB43F;
+    font-weight: bolder;
+    color: #f00;
+}
